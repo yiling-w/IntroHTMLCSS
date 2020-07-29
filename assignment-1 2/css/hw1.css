@@ -1,0 +1,114 @@
+body {
+    font-size: 22px;
+    margin: 1%;
+    padding: 1%;
+}
+
+header {
+    background-color: #b2b2b2;
+    background-image: url(../images/flywheel.jpg);
+    background-size: cover;
+    padding: 1%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav a {
+    background-color: rgba(255, 255, 255, .3);
+    display: inline-block;
+    margin: 3%;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    width: 15%;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+.left {
+    background-color: #777613;
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.right {
+    display: inline-block;
+    padding: 1%;
+    width: 75%;
+}
+
+img {
+    border: 2px solid #000000;
+    display: block;
+    margin: 45px auto;
+    width: 77%; 
+}
+
+/*Set the table color, border, and spacing...*/
+table{
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 1.5;
+	width: 80%;
+	margin: 0 auto;
+	border-spacing: 0;
+	border: 3px solid black;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 25px 25px 0 0;
+}
+/*Alternate row colors*/
+tr:nth-child(odd) {
+	background: #F2F2F2;
+}
+tr:nth-child(even) {
+	background: #CDBB79;
+}
+
+/*Format the table headings*/
+th{
+	text-align: center;
+	background: #777613;
+	background: -moz-linear-gradient(top, #ffffff 0%, #777613 100%);
+	background: -webkit-linear-gradient(#ffffff 0%, #777613 100%);
+	background: -o-linear-gradient(#ffffff 0%, #777613 100%);
+	background: linear-gradient(#ffffff 0%, #777613 100%);
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 25px 25px 0 0;
+}
+
+tr{	
+	text-align: center;
+}
+
+/*Format element attributes*/
+td{
+	margin: 2px;
+	padding-bottom: 2px;
+	color: #3d3d3d;
+	border-radius: 2px;
+}
+
+/* Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered */
+tr th:first-child, tr td:first-child {
+	text-align: left;
+}
+
+/* Set the opacity of the table rows to a value between .6 and .8*/
+tr td{
+	opacity: .8;
+}
+
+/* Change the opacity of a row when it is hovered over */
+tr td:hover {
+	opacity: 2.5;
+}
